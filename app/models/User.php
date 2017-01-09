@@ -1,7 +1,8 @@
 <?php
 
+use Illuminate\Database\Eloquent\Model as Eloquent;
 
-class User
+class User extends Eloquent
 {
     public $name;
 }
